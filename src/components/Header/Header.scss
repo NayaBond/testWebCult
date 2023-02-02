@@ -1,0 +1,48 @@
+
+.header {
+  flex-shrink: 0;
+  border-bottom: 1px solid #E1E1E1;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  height: 97px;
+  align-items: center;
+
+  & > div {
+    display: inline-flex;
+  }
+}
+
+.card {
+  margin-left: 30px;
+
+  svg {
+    width: 21px;
+    height: 23px;
+  }
+
+  .card-count {
+    position: relative;
+    left: 0px;
+    top: -5px;
+    background-color: #403432;
+    border-radius: 10px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+  }
+
+  #card-count {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: -5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+  }
+}

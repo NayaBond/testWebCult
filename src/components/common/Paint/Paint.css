@@ -1,0 +1,51 @@
+.paint {
+  margin-right: 30px;
+  width: 280px;
+  height: 330px;
+  border: 1px solid #E1E1E1;
+}
+.paint.paint-sold {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.paint .description {
+  padding: 20px;
+}
+.paint .sold-text {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  height: 52px;
+}
+.paint .old-price {
+  text-decoration-line: line-through;
+  color: #A0A0A0;
+}
+.paint .old-price h4 {
+  font-size: 12px;
+}
+.paint .btn {
+  margin-left: auto;
+}
+.paint .btn img {
+  margin: 0 5px 0 5px;
+}
+.paint .loader {
+  width: 280px;
+  height: 330px;
+  position: absolute;
+  background-color: grey;
+  opacity: 0.5;
+  text-align: center;
+  display: none;
+}
+.paint .loader p {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  top: 40%;
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=Paint.css.map */

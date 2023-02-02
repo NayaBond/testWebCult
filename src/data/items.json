@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Рождение Венеры",
+    "author": "Боттичелли",
+    "img": "/img/1.png",
+    "oldPrice": "2000000",
+    "newPrice": "1000000",
+    "sold": false,
+    "show": true
+  },
+  {
+    "id": 2,
+    "title": "Тайная вечеря",
+    "author": "Леонардо да Винчи",
+    "img": "/img/2.png",
+    "oldPrice": "",
+    "newPrice": "300000000",
+    "sold": false,
+    "show": true
+  },
+  {
+    "id": 3,
+    "title": "Сотворение Адама",
+    "author": "Микеланджело",
+    "img": "/img/3.png",
+    "oldPrice": "600000000",
+    "newPrice": "500000000",
+    "sold": false,
+    "show": true
+  },
+  {
+    "id": 4,
+    "title": "Урок анатомии",
+    "author": "Рембрант",
+    "img": "/img/4.png",
+    "oldPrice": "10000",
+    "newPrice": "1000000",
+    "sold": true,
+    "show": true
+  }
+]

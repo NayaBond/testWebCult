@@ -1,0 +1,31 @@
+.footer {
+  background-color: #ECEAEA;
+  margin-top: auto;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  height: 97px;
+  align-items: center;
+  background-color: #ECEAEA;
+}
+.footer-container > div {
+  display: inline-flex;
+}
+
+.contact-block {
+  align-items: center;
+  margin-left: auto;
+}
+.contact-block h4 {
+  margin-left: 40px;
+}
+.contact-block svg {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+}
+
+/*# sourceMappingURL=Footer.css.map */
